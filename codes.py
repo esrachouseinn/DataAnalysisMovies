@@ -123,3 +123,6 @@ plt.show()
 sns.stripplot(x="rating", y="gross", data=df)
 plt.show()
 
+# Save the tables
+df.to_csv('output.csv', index=False)
+print("Tablo 'output.csv' olarak kaydedildi.")
